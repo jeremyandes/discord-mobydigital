@@ -18,6 +18,7 @@ client.once('ready', () => {
 
 client.on('messageCreate', async (message: Message<boolean>) => {
     console.log(message);
+    message.reply('```javascript\n' + JSON.stringify(message, null, 4) + '```' );
 })
 
 client.login(process.env.DISCORD_TOKEN);

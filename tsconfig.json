@@ -93,9 +93,7 @@
     "skipLibCheck": true /* Skip type checking all .d.ts files. */
   },
   "include": [
-    "src/*",
-    "src/whatsapp/interfaces",
-    "src/firebase/controllers"
+    "src",
   ],
   "exclude": [
     "node_modules"

@@ -1,5 +1,5 @@
 import { REST, Routes } from 'discord.js';
-import { config } from '../../config';
+import { config } from '../../../config';
 import { Commands } from './commands'
 import dotenv from 'dotenv';
 dotenv.config();
